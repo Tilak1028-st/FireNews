@@ -8,7 +8,7 @@
 // View model class responsible for fetching news data
 class NewsListViewModel {
     private let apiClient = APIClient()
-    private var articles: [Articles]?
+    var articles: [Articles]?
     
     // Method to fetch news data
     func fetchNews(completion: @escaping (Result<Void, APIError>) -> Void) {
