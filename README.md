@@ -1,4 +1,4 @@
-# iOS App Challenge
+![Simulator Screenshot - iPhone 15 - 2024-03-02 at 20 33 02](https://github.com/Tilak1028-st/FireNews/assets/75114840/6be1622b-966b-48ec-a396-163a2dd82b0b)# iOS App Challenge
 
 This repository contains the code for an iOS app created as a response to a programming challenge. The goal of this challenge was to demonstrate proficiency in iOS app development, including programming style, skill, approach, and creativity.
 
@@ -7,12 +7,12 @@ This repository contains the code for an iOS app created as a response to a prog
 The project involved building a simple, native iOS app with at least two screens using a publicly available API. One screen displays a list of items from the chosen API, while the second screen shows a detailed view for those items. The app also includes tests to demonstrate a basic understanding of testing iOS apps. Additionally, 3rd party libraries were used for common tasks such as networking and image loading.
 
 ## Screenshots
+![Simulator Screenshot - iPhone 15 - 2024-03-02 at 20 33 46]()
 
-![List Screen](screenshots/list_screen.png)
-*Caption: Screenshot of the list screen displaying news items from the API.*
 
-![Detail Screen](screenshots/detail_screen.png)
-*Caption: Screenshot of the detail screen showing detailed information about an news item.*
+<img src="https://github.com/Tilak1028-st/FireNews/assets/75114840/3d48b3a4-1d78-4845-8228-9a630efe039e" alt="News List Screen" width="300"> 
+
+<img src="https://github.com/Tilak1028-st/FireNews/assets/75114840/5d5dc2d4-7229-4b37-a8bb-c9c8f9be6f09" alt="News Article Detail Screen" width="300"> 
 
 ## Technical Details
 
