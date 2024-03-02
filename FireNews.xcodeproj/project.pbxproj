@@ -14,6 +14,13 @@
 		72A35A882B92438E00F05241 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72A35A862B92438E00F05241 /* LaunchScreen.storyboard */; };
 		72A35A932B92460200F05241 /* NewsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A35A922B92460200F05241 /* NewsListViewController.swift */; };
 		72A35A952B92461100F05241 /* NewsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A35A942B92461100F05241 /* NewsDetailViewController.swift */; };
+		72A35A9D2B92476000F05241 /* FNConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A35A9C2B92476000F05241 /* FNConstant.swift */; };
+		72A35AA02B92526E00F05241 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A35A9F2B92526D00F05241 /* APIClient.swift */; };
+		72A35AA22B9252B600F05241 /* NewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A35AA12B9252B600F05241 /* NewsModel.swift */; };
+		72A35AA52B92531C00F05241 /* NewsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A35AA42B92531C00F05241 /* NewsListViewModel.swift */; };
+		72A35AA82B92563400F05241 /* NewsListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A35AA62B92563400F05241 /* NewsListTableViewCell.swift */; };
+		72A35AA92B92563400F05241 /* NewsListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72A35AA72B92563400F05241 /* NewsListTableViewCell.xib */; };
+		72A35AAC2B925B1300F05241 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 72A35AAB2B925B1300F05241 /* Kingfisher */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +33,12 @@
 		72A35A892B92438E00F05241 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		72A35A922B92460200F05241 /* NewsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListViewController.swift; sourceTree = "<group>"; };
 		72A35A942B92461100F05241 /* NewsDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDetailViewController.swift; sourceTree = "<group>"; };
+		72A35A9C2B92476000F05241 /* FNConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FNConstant.swift; sourceTree = "<group>"; };
+		72A35A9F2B92526D00F05241 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		72A35AA12B9252B600F05241 /* NewsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsModel.swift; sourceTree = "<group>"; };
+		72A35AA42B92531C00F05241 /* NewsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListViewModel.swift; sourceTree = "<group>"; };
+		72A35AA62B92563400F05241 /* NewsListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListTableViewCell.swift; sourceTree = "<group>"; };
+		72A35AA72B92563400F05241 /* NewsListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsListTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72A35AAC2B925B1300F05241 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,7 +73,11 @@
 			isa = PBXGroup;
 			children = (
 				72A35A912B9243BA00F05241 /* Delegates */,
+				72A35A9B2B92473E00F05241 /* Constant */,
+				72A35A9E2B9248F500F05241 /* Model */,
+				72A35AA32B92530900F05241 /* ViewModel */,
 				72A35A902B9243AA00F05241 /* Controllers */,
+				72A35A962B92471300F05241 /* Cells */,
 				72A35A8F2B9243A200F05241 /* Views */,
 				72A35A842B92438E00F05241 /* Assets.xcassets */,
 				72A35A892B92438E00F05241 /* Info.plist */,
@@ -94,6 +112,40 @@
 			path = Delegates;
 			sourceTree = "<group>";
 		};
+		72A35A962B92471300F05241 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				72A35AA62B92563400F05241 /* NewsListTableViewCell.swift */,
+				72A35AA72B92563400F05241 /* NewsListTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		72A35A9B2B92473E00F05241 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				72A35A9C2B92476000F05241 /* FNConstant.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		72A35A9E2B9248F500F05241 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				72A35A9F2B92526D00F05241 /* APIClient.swift */,
+				72A35AA12B9252B600F05241 /* NewsModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		72A35AA32B92530900F05241 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				72A35AA42B92531C00F05241 /* NewsListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -110,6 +162,9 @@
 			dependencies = (
 			);
 			name = FireNews;
+			packageProductDependencies = (
+				72A35AAB2B925B1300F05241 /* Kingfisher */,
+			);
 			productName = FireNews;
 			productReference = 72A35A782B92438C00F05241 /* FireNews.app */;
 			productType = "com.apple.product-type.application";
@@ -138,6 +193,9 @@
 				Base,
 			);
 			mainGroup = 72A35A6F2B92438C00F05241;
+			packageReferences = (
+				72A35AAA2B925B1300F05241 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 72A35A792B92438C00F05241 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -152,6 +210,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72A35AA92B92563400F05241 /* NewsListTableViewCell.xib in Resources */,
 				72A35A882B92438E00F05241 /* LaunchScreen.storyboard in Resources */,
 				72A35A852B92438E00F05241 /* Assets.xcassets in Resources */,
 				72A35A832B92438C00F05241 /* Main.storyboard in Resources */,
@@ -165,9 +224,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72A35AA22B9252B600F05241 /* NewsModel.swift in Sources */,
 				72A35A7C2B92438C00F05241 /* AppDelegate.swift in Sources */,
+				72A35AA52B92531C00F05241 /* NewsListViewModel.swift in Sources */,
+				72A35AA02B92526E00F05241 /* APIClient.swift in Sources */,
 				72A35A7E2B92438C00F05241 /* SceneDelegate.swift in Sources */,
 				72A35A932B92460200F05241 /* NewsListViewController.swift in Sources */,
+				72A35AA82B92563400F05241 /* NewsListTableViewCell.swift in Sources */,
+				72A35A9D2B92476000F05241 /* FNConstant.swift in Sources */,
 				72A35A952B92461100F05241 /* NewsDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -401,6 +465,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		72A35AAA2B925B1300F05241 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.11.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		72A35AAB2B925B1300F05241 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 72A35AAA2B925B1300F05241 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 72A35A702B92438C00F05241 /* Project object */;
 }
