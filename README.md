@@ -14,8 +14,8 @@ This repository contains the code for an iOS app designed to showcase the latest
 ## Technical Details
 
 - Language: Swift
-- Xcode version: X.X
-- Deployment Target: iOS X.X
+- Xcode version: 15.2
+- Deployment Target: iOS 16.0
 - 3rd Party Libraries Used:
   - Alamofire (for networking)
   - SDWebImage (for image loading)
