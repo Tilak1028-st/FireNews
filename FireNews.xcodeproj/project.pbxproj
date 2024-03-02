@@ -106,8 +106,8 @@
 		72A35A912B9243BA00F05241 /* Delegates */ = {
 			isa = PBXGroup;
 			children = (
-				72A35A7D2B92438C00F05241 /* SceneDelegate.swift */,
 				72A35A7B2B92438C00F05241 /* AppDelegate.swift */,
+				72A35A7D2B92438C00F05241 /* SceneDelegate.swift */,
 			);
 			path = Delegates;
 			sourceTree = "<group>";
