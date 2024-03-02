@@ -4,7 +4,7 @@ This repository contains the code for an iOS app created as a response to a prog
 
 ## Project Description
 
-The project involved building a simple, native iOS app with at least two screens using a publicly available API. One screen displays a list of items from the chosen API, while the second screen shows a detailed view for those items. The app also includes tests to demonstrate a basic understanding of testing iOS apps. Additionally, 3rd party libraries were used for common tasks such as networking and image loading.
+This repository contains the code for an iOS app designed to showcase the latest top news sourced from NewsAPI.org. The app features a dynamic interface with two distinct screens. The first screen presents a table view populated with the top news headlines, allowing users to browse through the latest updates conveniently. Upon selecting a news article, users are seamlessly transitioned to the second screen, where they can delve into the details of the chosen news item. This project encapsulates the essence of native iOS development, leveraging Swift and incorporating essential functionalities such as networking for data retrieval and intuitive navigation between screens. With an emphasis on user experience and accessibility, this app serves as a testament to the developer's proficiency in iOS app development.
 
 ## Screenshots
 
